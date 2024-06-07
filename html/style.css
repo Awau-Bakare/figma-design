@@ -6,7 +6,6 @@
 
 .firstpage{
     width: 100%;
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,19 +13,31 @@
 
 .nav-links{
     width: 100%;
-    padding: 1%;
+    padding: 0%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: black;
     color: white;
 
 }
 
-.auto{
-    font: 13px;
-    justify-content: center;
-    
+.logo{
+    margin-left: 2%;
+}
 
+
+.hand{
+    position: relative;
+    right: 15%; 
+    padding: 15px 10px;
+    background-color: blue;
+}
+
+.auto{
+    font: 14px;
+    position: relative;
+    left: 8%;
 
 }
 
