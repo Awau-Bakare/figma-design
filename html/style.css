@@ -9,6 +9,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+
 }
 
 .nav-links{
@@ -19,6 +21,7 @@
     align-items: center;
     background-color: black;
     color: white;
+    
 
 }
 
@@ -29,7 +32,7 @@
 
 .hand{
     position: relative;
-    right: 15%; 
+    right: 10%; 
     padding: 15px 10px;
     background-color: blue;
 }
@@ -37,10 +40,58 @@
 .auto{
     font: 14px;
     position: relative;
-    left: 8%;
+    left: 13rem;
+    font-family: "Poppins", sans-serif;
 
 }
 
-.login{
-    float: left;
+.img-circle {
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+    padding: 1px;
+    
+    
+  }
+  .image{
+    position: relative;
+    left: 32rem;
+  }
+
+.login button{
+    position: relative;
+    left: 23.5rem;
+    padding: 5px 30px;
+    width: 10%;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.login-text{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+
+
+.pointer{
+    position: relative;
+    left: 14.5rem;
+}
+
+.counter p{
+    position: relative;
+    left: 7rem;
+    margin: 3%;
+
+}
+
+.last-angle i {
+    position: relative;
+    right: 1.5rem;
 }
